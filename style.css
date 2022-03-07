@@ -1,0 +1,90 @@
+body
+{
+	background-image: url('img/concrete_wall.png');
+	font-family: 'Merriweather', sans-serif;
+}
+#container
+{
+	background-color: #faf8f5;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #26231c;
+	height: 730px;
+}
+#title
+{
+	background-color: #696661;
+	color:#faf8f5;
+	padding: 15px;
+	
+}
+h1
+{
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin-top: 22px;
+	margin-bottom: 30px;
+	
+}
+#introduction
+{
+	text-align: center;
+	margin-top: 100px;
+	width: 1000px;
+	font-weight: 700;
+	font-size: 20px;
+}
+#mainSite
+{
+	text-align: center;
+	width: 1000px;
+}
+
+.entry
+{
+	float: left;
+	width: 500px;
+	text-align: center;
+}
+.stSubmit
+{
+	background-color:#a86a74; 
+	width: 300px;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 100px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+#log
+{
+	background-color: #7dba7d;
+}
+#log:hover
+{
+	background-color: #6caa6c;
+}
+#reg:hover
+{
+	background-color:#a75a63; 
+}
+
+.footer
+{
+	background-color: #696661;
+	color:#faf8f5;
+	height: 20px;
+	padding: 10px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
