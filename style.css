@@ -5,13 +5,15 @@ body
 }
 #container
 {
+	margin-top: 20px;
+	margin-bottom: 20px;
 	background-color: #faf8f5;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	color: #26231c;
-	height: 730px;
+	height: 700px;
 }
 #title
 {
@@ -29,11 +31,20 @@ h1
 	margin-bottom: 30px;
 	
 }
+#logo
+{
+	margin-top: 40px;
+	float: left;
+	width: 200px;
+	text-align: center;
+	border-right: 2px solid #26231c; 
+}
 #introduction
 {
+	float: left;
 	text-align: center;
-	margin-top: 100px;
-	width: 1000px;
+	margin-top: 60px;
+	min-width: 650px;
 	font-weight: 700;
 	font-size: 20px;
 }
