@@ -19,7 +19,7 @@ body
 {
 	background-color: #696661;
 	color:#faf8f5;
-	padding: 15px;
+	padding: 10px;
 	
 }
 h1
@@ -27,8 +27,8 @@ h1
 	text-align: center;
 	font-weight: 700;
 	letter-spacing: 3px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	
 }
 #logo
@@ -41,12 +41,14 @@ h1
 }
 #introduction
 {
+	color: #faf8f5;
 	float: left;
 	text-align: center;
 	margin-top: 60px;
 	min-width: 650px;
 	font-weight: 700;
 	font-size: 20px;
+	transition: color .4s ease-in-out;
 }
 #mainSite
 {
@@ -62,7 +64,7 @@ h1
 }
 .stSubmit
 {
-	background-color:#a86a74; 
+	background-color:#a75a63; 
 	width: 300px;
 	font-size:20px;
 	color: white;
@@ -76,15 +78,15 @@ h1
 }
 #log
 {
-	background-color: #7dba7d;
+	background-color: #6caa6c;
 }
 #log:hover
 {
-	background-color: #6caa6c;
+	background-color: #4baa5b;
 }
 #reg:hover
 {
-	background-color:#a75a63; 
+	background-color:#a54a52; 
 }
 
 .footer
@@ -101,8 +103,8 @@ h1
 }
 .rlSubmit
 {
-	background-color:#7dba7d; 
-	width: 211px;
+	background-color: #6caa6c;
+	width: 212px;
 	font-size:17px;
 	color: white;
 	padding: 10px 5px;
@@ -113,6 +115,11 @@ h1
 	letter-spacing: 2px;
 	outline: none;
 }
+.rlSubmit:hover
+{
+	background-color: #4baa5b;
+}
+
 .rejlog
 {
 	text-align: right;
@@ -131,4 +138,16 @@ h1
 	box-sizing: border-box;
 	outline: none;
 	margin-top: 10px;
+}
+#rejImg
+{
+	margin-top: 89px;
+	margin-bottom: 89px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 420px;
+	height: 120px;
+	text-align: center;
+	background-image: url('img/klawiatura.jpg');
+	background-size: auto;
 }
