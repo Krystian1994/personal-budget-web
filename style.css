@@ -54,6 +54,8 @@ h1
 {
 	text-align: center;
 	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .entry
@@ -104,7 +106,7 @@ h1
 .rlSubmit
 {
 	background-color: #6caa6c;
-	width: 212px;
+	width: 240px;
 	font-size:17px;
 	color: white;
 	padding: 10px 5px;
@@ -124,6 +126,8 @@ h1
 {
 	text-align: right;
 	width: 605px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .inputType
 {
@@ -131,23 +135,21 @@ h1
 	height: 30px;
 	background-color: #efefef;
 	color: #666;
-	border: 2px solid #ddd;
-	border-radius: 5px;
 	font-size: 15px;
 	padding: 10px;
 	box-sizing: border-box;
 	outline: none;
-	margin-top: 10px;
+	border: none;
 }
-#rejImg
+.labelAndInput
 {
-	margin-top: 89px;
-	margin-bottom: 89px;
+	margin-top:10px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 420px;
-	height: 120px;
-	text-align: center;
-	background-image: url('img/klawiatura.jpg');
-	background-size: auto;
+	width: 240px;
+	height: 30px;
+	background-color: #efefef;
+	border: 2px solid #ddd;
+	border-radius: 5px;
 }
