@@ -160,23 +160,49 @@ h1
 #workingWindow
 {
 	float: left;
-	border-left: 4px solid #ddd;
+	border-left: 2px dotted #696661;
+	width: 808px;
+	height: 480px;
 }
 .mainButton
-{
-	margin-top: 10px;
+{ 
+	margin-top: 0px;
 	text-align: center;
-	margin-left: auto;
+	margin-left: 15px;
 	margin-right: auto;
-	width: 240px;
-	height: 30px;
-	background-color: #efefef;
+	width: 175px;
+	height: 40px;
+	/*background-color: #efefef;*/
+	color: #8e9091;
+	background-color: #faf8f5;
+	border: 2px solid #ddd;
+
+	border: none;
+
+}
+.mainButton:hover
+{
+	color: black;
 }
 .mainSubmit
 {
+	background-color: #faf8f5;
+	cursor: pointer;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 200px;
-	height: 30px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 140px;
+	height: 40px;
+	border: none;
+	color: #8e9091;
+}
+.mainSubmit:hover
+{
+	color: black;
+}
+#infoLogin
+{
+	margin-top: 10px;
+	font-size: 10px;
+	color: #04c91e;
 }
