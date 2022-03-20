@@ -17,7 +17,8 @@ body
 }
 #title
 {
-	background-color: #696661;
+	/*background-color: #696661;*/
+	background-color: #6cc2eb;
 	color:#faf8f5;
 	padding: 10px;
 	
@@ -93,7 +94,7 @@ h1
 
 .footer
 {
-	background-color: #696661;
+	background-color: #6cc2eb;
 	color:#faf8f5;
 	height: 20px;
 	padding: 10px;
@@ -152,4 +153,55 @@ h1
 	background-color: #efefef;
 	border: 2px solid #ddd;
 	border-radius: 5px;
+}
+#selectionWindow
+{
+	float: left;
+}
+#workingWindow
+{
+	float: left;
+	border-left: 2px dotted #696661;
+	width: 808px;
+	height: 477px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.mainButton
+{ 
+	margin-top: 0px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: auto;
+	width: 175px;
+	height: 40px;
+	color: #8e9091;
+	background-color: #faf8f5;
+}
+
+.mainSubmit
+{
+	background-color: #faf8f5;
+	cursor: pointer;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	width: 140px;
+	height: 40px;
+	border: none;
+	color: #8e9091;
+	font-size: 15px;
+	font-family: fontello;
+}
+.mainSubmit:hover
+{
+	color: black;
+}
+#infoLogin
+{
+	margin-top: 10px;
+	font-size: 10px;
+	color: #04c91e;
 }
