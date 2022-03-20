@@ -1,21 +1,30 @@
-var information = ['Masz problem z kontrolowaniem wydatków?', 'Chcesz mieć stały dostęp do informacji o Twoim bilansie?', 'Ta strona jest właśnie dla Ciebie!'];
+var id = ['#home','#money','#basket','#chart','#wrench','#logout'];
 
 
-function changeColor()
+window.onload=home;
+
+function home()
 {
-	$('#introduction').css('color','#faf8f5');
+	$('#home').css('color','black');
+	$('#workingWindow').html('<div id="image"></div>');
+	$('#image').css({'width':'429px','height':'465px','margin-left':'160px','background-image':'url("img/biznesmen.jpg")'});
+}
+var lastClick = '#home';
+
+/*
+function basket()
+{
+	$(lastClick).css('color','#8e9091');
+	$('#basket').css('color','black');
+	$('#workingWindow').html(działa);
 }
 
-
-var nr = 0;
-function start()
-{
-	if(nr>2)nr = 0;
-	$('#introduction').css('color','#26231c');
-	$('#introduction').html(information[nr]);
-	nr++;
-	setTimeout(changeColor,3500);
-	setTimeout(start,4000);
-}
-window.onload=start;
-
+$(document).ready(function() {
+	$('#basket').on("click",function (){
+			$('#basket').css('color','black');
+			});
+	$('#home').on("click",function (){
+			$('#home'.css('color','black');
+			});
+});
+*/

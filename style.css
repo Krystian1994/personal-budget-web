@@ -17,7 +17,8 @@ body
 }
 #title
 {
-	background-color: #696661;
+	/*background-color: #696661;*/
+	background-color: #6cc2eb;
 	color:#faf8f5;
 	padding: 10px;
 	
@@ -93,7 +94,7 @@ h1
 
 .footer
 {
-	background-color: #696661;
+	background-color: #6cc2eb;
 	color:#faf8f5;
 	height: 20px;
 	padding: 10px;
@@ -162,7 +163,11 @@ h1
 	float: left;
 	border-left: 2px dotted #696661;
 	width: 808px;
-	height: 480px;
+	height: 477px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 .mainButton
 { 
@@ -172,18 +177,10 @@ h1
 	margin-right: auto;
 	width: 175px;
 	height: 40px;
-	/*background-color: #efefef;*/
 	color: #8e9091;
 	background-color: #faf8f5;
-	border: 2px solid #ddd;
-
-	border: none;
-
 }
-.mainButton:hover
-{
-	color: black;
-}
+
 .mainSubmit
 {
 	background-color: #faf8f5;
@@ -195,6 +192,8 @@ h1
 	height: 40px;
 	border: none;
 	color: #8e9091;
+	font-size: 15px;
+	font-family: fontello;
 }
 .mainSubmit:hover
 {
