@@ -205,3 +205,31 @@ h1
 	font-size: 10px;
 	color: #04c91e;
 }
+#image
+{
+	width: 429px;
+	height: 465px;
+	margin-left: 160px;
+	background-image: url('img/biznesmen.jpg');
+}
+#delete
+{
+	width: 80px;
+	margin-left: 50px;
+	background-color:#a75a63;
+}
+#delete:hover
+{
+	background-color:#a54a52; 
+}
+#add
+{
+	width: 80px;
+	margin-left: 78px;
+}
+#click
+{
+	text-align: left;
+	padding-left: 132px;
+	
+}
