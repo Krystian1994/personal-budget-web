@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 	
 	<!--<script src="jquery-3.6.0.slim.min.js"></script>
-	<script src="scriptMain.js"></script> -->
+	<script src="scriptMain.js"></script>-->
 	
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
 	
@@ -23,16 +23,16 @@
 		<header><div id="title"><h1><i class="icon-money"></i>personalbudget.pl</h1></div></header>
 		<main>
 			<article>
-				<h4>Witaj IMIĘ w Menu Głównym</h4>
+				<h4>Wprowadź dane:</h4>
 				<div id="mainSite">
 					<form>
 						<div id="selectionWindow">
 						
 							<div class="mainButton">	
-							<input id="home" class="mainSubmit" type="button" value="&#xe807; Strona Główna" style="color:black;" />
+							<input id="home" class="mainSubmit" type="button" value="&#xe807; Strona Główna" onclick="window.location.href='main.html';" />
 							</div>
 							<div class="mainButton">
-							<input id="money" class="mainSubmit" type="button" value="&#xe80b; Dodaj Przychód" onclick="window.location.href='addincome.html';" />
+							<input id="money" class="mainSubmit" type="button" value="&#xe80b; Dodaj Przychód" style="color:black;" />
 							</div>
 							<div class="mainButton">
 							<input id="basket" class="mainSubmit" type="button" value="&#xe80c;  Dodaj Wydatek" />
@@ -50,10 +50,34 @@
 							
 						
 						</div>
-						<div id="workingWindow">
-							<div id="image"></div>
-							
-							
+						<div id="workingWindow" >
+							<form>
+								<div class="rejlog" style="margin-left:0px;">
+						
+									<div class="labelAndInput"><label><i class="icon-pencil-1"></i><input class="inputType" type="number" name="przychod" placeholder="kwota" min="0" required></label></div>
+									
+									<div class="labelAndInput"><label><i class="icon-pencil-1"></i><input class="inputType" type="date" name="dataPrzychodu" required></label></div>
+									
+									<div class="labelAndInput">
+									<label style="padding-bottom:6px;">
+										<select class="inputType" style="padding:5px;">
+											<option disabled selected hidden>Wybierz kategorię</option>
+											<option>Wynagrodzenie</option>
+											<option>Odestki bankowe</option>
+											<option>Sprzedaż na allegro</option>
+											<option>Inne</option>
+										<select>
+									</label></div>
+									
+									<div class="labelAndInput"><label><i class="icon-pencil-1"></i><input class="inputType" type="text" name="komentarz" placeholder="komentarz"></label></div>
+						
+								</div>
+								<div id="click">
+									<input id="delete" class="rlSubmit" type="submit" value="Anuluj">
+									<input id="add" class="rlSubmit" type="submit" value="Dodaj">
+								</div>
+
+							</form>
 						</div>
 						
 						<div style="clear:both;"></div>
